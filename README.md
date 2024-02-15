@@ -6,14 +6,22 @@
 Assignment 2 - Data Visualization, 5 Ways  
 ===
 # Nadav Konstantine CS4804 A2 DataVis 5 Ways Submission:
-===
 # Google Sheets
 ![](img/NadavGoogleSheets_Plot.png)
 Above is my completed version of my first and most time-consuming vis for this assignment; funnily enough, Google Sheets was the most difficult Vis to replicate. Yes, this is a non-coding-necessary method, but I struggled immensely with the concept of separating data on the plot to have all three species color-coded properly. Aside from this extremely lengthy hiccup, all I had to do was select the insert chart and select the necessary data points, separate the X and Y axes as necessary, and customize other configurations for colors and font sizes for the legends, etc. I couldn't figure out how to create a second legend for the bill length sizes for each bubble, but after the requirements and aesthetics were customized in the chart customization menu I made sure to meet all requirements necessary for this assignment. 
 **Technical and Design Achievements**
-For this Viz, My technical and design achievements were that I was able to implement size scaling for the bill lengths of each penguin, you can see that not every bubble is the same size, and that is because I was able to integrate proper sizing in the chart configurations in google sheets, also, another technical and design achievement as shown below is that I was able to include an interactive feature in the plot, where when I hover over a plot point there is a popup of the specific data stored within that point. Additionally, I precisely selected the colors for each species using the color select tool. All these achievements can be seen in the following image:
+For this Viz, My technical and design achievements were that I was able to implement size scaling for the bill lengths of each penguin, you can see that not every bubble is the same size, and that is because I was able to integrate proper sizing in the chart configurations in google sheets, also, another technical and design achievement as shown below is that I was able to include an interactive feature in the plot, where when I hover over a plot point there is a popup of the specific data stored within that point. Additionally, I precisely selected the colors for each species using the color select tool. All these achievements can be seen in the following image (apologies if it is slightly blurry I do not know how to fix that):
 ![](img/NadavGoogleSheets_Demo1.png)
 
+# Flourish
+![](img/NadavFlourish_Plot.png)
+Above is the fully shown replication of the Penglings plot using the online data visualization tool: Flourish. Flourish was an extremely intuitive tool and I was able to complete this vis in an extremely short time. Upon creating an account with Flourish, I was introduced to the multitudes of different vis tables I could choose from, I chose the scatter plot option and all I had to do was upload my CSV file and customize data that was automatically categorized for me. I configured visual aesthetics according to assignment requirements and then played around with the other abilities Flourish had to offer. The online tool gave me a quick guide for how to navigate the different toggle points on the webpage, and all difficulties encountered in Google Sheets were virtually unnoticed in Flourish, while it may not be the most powerful tool out of the bunch I used, it was definitely one of the easiest.
+**Technical and Design Achievements**
+Below are examples of the technical and design achievements I reached with Flourish. Since the assignment minimum was achieved so quickly, I took more time to add some extra features to the graph, while these are mainly design achievements, I bent some technical limits of flourish by getting formatting exactly how I wanted them to, configuring bill length sizes to alter the bubble sizes, having hover-over popups just like Google sheets, and have a clickable legend that filters the data visualized on the graph by species. As mentioned, these achievements are seen in the images below.
+![](img/NadavFlourish_Demo1.png)
+![](img/NadavFlourish_Demo2.png)
+
+# MattPlotLib
 
 Now that you have successfully made a "visualization" of shapes and lines using d3, your next assignment is to successfully make a *actual visualization*... 5 times. 
 
