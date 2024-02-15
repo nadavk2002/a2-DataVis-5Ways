@@ -5,6 +5,7 @@
 
 Assignment 2 - Data Visualization, 5 Ways  
 ===
+NadavD3_Plot.png
 
 Now that you have successfully made a "visualization" of shapes and lines using d3, your next assignment is to successfully make a *actual visualization*... 5 times. 
 
