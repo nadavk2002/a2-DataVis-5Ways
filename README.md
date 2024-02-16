@@ -19,13 +19,13 @@ Below are examples of the technical and design achievements I reached with Flour
 ![](img/NadavFlourish_Demo2.png)
 
 # MattPlotLib
-![](img/NadavMathPlotLib_Plot.png)
+![](img/NadavMattPlotLib_Plot.png)
 The first coding library I used for this assignment was MattPlotLib, a powerful Python library that I was able to easily read, write, and document a replication of the assignment's plot with a consultation with chatGPT for the syntax of my query building (since I was less acquainted with that part). By reading my CSV file as a pandas dataframe I could then apply a color dictionary to specific iterations of the file's columns through the query. The for loop identified specific species, and then for each species the plt.scatter function plotted each point using the required x and y-axis titles and colors. The size of each bubble was determined through the s variable and then I adjusted the size to my liking. The gridlines and legend for the visuals of the graph were simple, using the plt.grid and plt.legend function calls respectively. I have not struggled too much with this method of visualizing the penglings, and the MattPlotLib documentation has plenty of other useful functions that add to the library's ability to make different types of graphs in Python. 
 
 **Technical and Design Achievements**
 
 The plt.grid function did more than just help me adjust tick marks and gridlines but also implemented an interactive interface that the user can change perspectives of the graph through sliding bars that change the graph view, as well as buttons to reset and reconfigure these changes. An example image of how this works is displayed in the image below.
-![](img/NadavMathPlotLib_Demo.png)
+![](img/NadavMattPlotLib_Demo.png)
 
 # D3
 ![](img/NadavD3_Plot.png)
