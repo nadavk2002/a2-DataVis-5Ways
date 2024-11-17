@@ -42,6 +42,7 @@ Lastly, the easiest coding library approach I used was the Python library, Altai
  - Gridlines, bolded titles
 
 ===
+[FUTURE ANECDOTE: Nadav 11/2024 writing a reflection of the pieces here, and I acknowledge the time consumed to perfect this project work, I felt like I properly dipped my toes into each concept covered here and I hope to continue sharpening the skills I gained in this course]
 ![penguins](https://github.com/cs4804-24c/a2-DataVis-5Ways/assets/412089/accc5680-3c77-4d29-9502-d3ff8cd922af)
 
 # 02-DataVis-5ways
